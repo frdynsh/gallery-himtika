@@ -52,36 +52,36 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Himtika Growth Up 1",
       category: ["agenda"],
       images: [
-        "/assets/img/agenda/hgu1/1.jpg",
-        "/assets/img/agenda/hgu1/2.jpg",
-        "/assets/img/agenda/hgu1/3.jpg",
+        "/assets/img/agenda/hgu1/1.JPG",
+        "/assets/img/agenda/hgu1/2.JPG",
+        "/assets/img/agenda/hgu1/3.JPG",
       ],
     },
     {
       title: "Rapat ketiga",
       category: ["rapat"],
       images: [
-        "/assets/img/rapat/rapat-ketiga/1.jpg",
-        "/assets/img/rapat/rapat-ketiga/2.jpg",
-        "/assets/img/rapat/rapat-ketiga/3.jpg",
+        "/assets/img/rapat/rapat-ketiga/1.JPG",
+        "/assets/img/rapat/rapat-ketiga/2.JPG",
+        "/assets/img/rapat/rapat-ketiga/3.JPG",
       ],
     },
     {
       title: "Himtika Growth Up 2 & 3",
       category: ["agenda"],
       images: [
-        "/assets/img/agenda/hgu2&3/1.jpg",
-        "/assets/img/agenda/hgu2&3/2.jpg",
-        "/assets/img/agenda/hgu2&3/3.jpg",
+        "/assets/img/agenda/hgu2&3/1.JPG",
+        "/assets/img/agenda/hgu2&3/2.JPG",
+        "/assets/img/agenda/hgu2&3/3.JPG",
       ],
     },
     {
       title: "HIMFUN 2",
       category: ["bonding"],
       images: [
-        "/assets/img/bonding/himfun2/1.jpg",
-        "/assets/img/bonding/himfun2/2.jpg",
-        "/assets/img/bonding/himfun2/3.jpg",
+        "/assets/img/bonding/himfun2/1.JPG",
+        "/assets/img/bonding/himfun2/2.JPG",
+        "/assets/img/bonding/himfun2/3.JPG",
       ],
     },
     {
