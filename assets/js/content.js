@@ -376,15 +376,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Jalankan pertama kali
   activateGalleryClick();
-
-  /* =========================================
-   8. POPUP GAMBAR SELALU DI TENGAH LAYAR
-   ========================================= */
-  const popupOverlay = document.getElementById("image-popup-overlay");
-  const popupImage = document.getElementById("popup-img");
-
-  function activateImagePopup() {}
-  popupOverlay.addEventListener("click");
-
-  activateImagePopup();
 });
