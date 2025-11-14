@@ -40,15 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
     },
     {
-      title: "SERTIJAB",
-      category: ["kaderisasi"],
-      images: [
-        "/galeri-himtika/assets/img/kaderisasi/sertijab/1.jpeg",
-        "/galeri-himtika/assets/img/kaderisasi/sertijab/2.jpeg",
-        "/galeri-himtika/assets/img/kaderisasi/sertijab/3.jpeg",
-      ],
-    },
-    {
       title: "Himtika Growth Up 1",
       category: ["agenda"],
       images: [
@@ -100,15 +91,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "/galeri-himtika/assets/img/bonding/himfun3/1.jpeg",
         "/galeri-himtika/assets/img/bonding/himfun3/2.jpeg",
         "/galeri-himtika/assets/img/bonding/himfun3/3.jpeg",
-      ],
-    },
-    {
-      title: "Rapat keempat",
-      category: ["rapat"],
-      images: [
-        "/galeri-himtika/assets/img/rapat/rapat-keempat/1.jpg",
-        "/galeri-himtika/assets/img/rapat/rapat-keempat/2.jpg",
-        "/galeri-himtika/assets/img/rapat/rapat-keempat/3.jpg",
       ],
     },
     {
