@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+      body {
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+      }
+      /* Kustomisasi scrollbar */
+      body::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+      }
+
+      .golden-gradient-text {
+        background-image: linear-gradient(to right, #d5af34, #e8d09e);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      .golden-gradient-bg {
+        background-image: linear-gradient(to right, #d5af34, #e8d09e);
+      }
+    </style>
+  </head>
+  <body class="bg-[#1e2039] text-white font-sans">
+    <!-- ========== HERO SECTION ========== -->
+    <section
+      id="home"
+      class="relative min-h-[70vh] md:min-h-[40vh] flex items-center bg-[#1e2039] overflow-hidden"
+    >
+      <div class="container mx-auto px-6 py-16 text-center max-w-7xl">
+        <!-- Background Particles -->
+        <div id="particles-hero" class="absolute inset-0 z-0"></div>
+
+        <div class="relative z-10">
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+            Dokumentasi Kegiatan
+            <span class="block golden-gradient-text mt-2"> HIMTIKA </span>
+          </h1>
+          <p class="text-lg text-gray-300 mt-6 max-w-2xl mx-auto">
+            Lihat kembali momen berharga, pencapaian, dan kolaborasi dari
+            seluruh program kerja Himpunan Mahasiswa Informatika Unsika.
+          </p>
+          <div class="mt-10">
+            <a
+              href="#galeri"
+              class="golden-gradient-bg text-gray-900 font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/30"
+            >
+              <i class="fas fa-arrow-down mr-2"></i>
+              Lihat Galeri
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri" class="bg-[#1e2039] py-20 px-6 md:px-12 lg:px-20">
+      <div class="container mx-auto max-w-7xl">
+        <!-- Background Particles -->
+        <div id="particles-contact" class="absolute inset-0 z-0"></div>
+
+        <div
+          id="gallery-filters"
+          class="flex justify-center gap-2 sm:gap-4 mb-12 flex-wrap"
+        >
+          <button
+            data-filter="all"
+            class="filter-btn golden-gradient-bg text-gray-900 font-bold py-2 px-6 rounded-full transition-all duration-300 shadow-lg shadow-yellow-500/20"
+          >
+            Semua
+          </button>
+          <button
+            data-filter="rapat"
+            class="filter-btn bg-transparent border-2 border-gray-700 text-gray-400 font-bold py-2 px-6 rounded-full hover:bg-gray-800 hover:text-white hover:border-gray-600 transition-all duration-300"
+          >
+            Rapat & Koordinasi
+          </button>
+          <button
+            data-filter="agenda"
+            class="filter-btn bg-transparent border-2 border-gray-700 text-gray-400 font-bold py-2 px-6 rounded-full hover:bg-gray-800 hover:text-white hover:border-gray-600 transition-all duration-300"
+          >
+            Agenda Inti & Evaluasi
+          </button>
+          <button
+            data-filter="kaderisasi"
+            class="filter-btn bg-transparent border-2 border-gray-700 text-gray-400 font-bold py-2 px-6 rounded-full hover:bg-gray-800 hover:text-white hover:border-gray-600 transition-all duration-300"
+          >
+            Kaderisasi & Regenerasi
+          </button>
+          <button
+            data-filter="bonding"
+            class="filter-btn bg-transparent border-2 border-gray-700 text-gray-400 font-bold py-2 px-6 rounded-full hover:bg-gray-800 hover:text-white hover:border-gray-600 transition-all duration-300"
+          >
+            Bonding & Kekeluargaan
+          </button>
+        </div>
+
+        <div
+          id="gallery-grid"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        ></div>
+
+        <div class="text-center mt-16">
+          <button
+            id="load-more-btn"
+            class="block mx-auto border-2 border-gray-600 text-gray-300 font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 hover:bg-gray-700 hover:border-gray-500"
+          >
+            Muat Lebih Banyak
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="../assets/js/gparticles.min.js"></script>
+    <script src="../assets/js/gparticles-app.js"></script>
+    <script src="../assets/js/content.js"></script>
+  </body>
+</html>
